@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-cudnn7-devel
+FROM nvidia/cuda:10.1-cudnn7-devel@sha256:d88cb63c2e1c66e6a53fb981c61d85728b5563388a37f706d39bc45c4539b39a
 
 # Install some utilities
 RUN apt-get update && \
